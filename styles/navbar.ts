@@ -5,7 +5,6 @@ export const NavBar = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.2rem;
-  /* margin-bottom: 2rem; */
   background-color: #333;
   color: #fff;
 
@@ -14,6 +13,11 @@ export const NavBar = styled.nav`
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
+
+    img {
+      min-width: 25px;
+      min-height: 25px;
+    }
   }
 
   .link__itens {

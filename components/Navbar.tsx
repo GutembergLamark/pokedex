@@ -8,8 +8,8 @@ export default function Navbar() {
       <div className={"logo"}>
         <Image
           src="/images/pokeball.png"
-          width="30"
-          height="30"
+          width="30px"
+          height="30px"
           alt="pokenext"
         />
         <h1>PokeDex</h1>
